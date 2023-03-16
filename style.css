@@ -1,0 +1,105 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: rgb(23, 60, 129);
+    font-family: sans-serif;
+}
+.container {
+    width: 100%;
+    text-align: center;
+}
+.header > h2 {
+    color: rgb(211, 131, 102);
+    font-size: 3rem;
+    font-weight: 700;
+}
+#error-message {
+    color: rgb(182, 182, 62);
+    font-size: 2rem;
+    font-weight: 500;
+}
+#todoform {
+    width: 70%;
+    margin: 0 auto;
+}
+#todoform > #newtodo {
+    width: 55%;
+    margin-top: 20px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    outline: none;
+    border: rgb(211, 131, 102) solid 2px;
+    background-color: bisque;
+    font-size: 1.5rem;
+    color: rgb(23, 60, 129);
+}
+#todoform > button {
+    width: 10%;
+    padding: 14px 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: rgb(211, 131, 102) solid 3px;
+    font-size: 2rem;
+    color: rgb(77, 74, 72);
+}
+#todoform > button:hover {
+    background-color: rgb(77, 74, 72);
+    color: rgb(211, 131, 102);
+}
+#todo-list {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.todo {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: white;
+    width: 40%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.todo > p {
+    text-align: left;
+    flex: 4;
+    font-size: 2rem;
+    color: rgb(116, 66, 66);
+    font-weight: 700;
+    margin-top: 7px;
+}
+.todo > i {
+    padding: 15px 10px ;
+    flex: 1;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+.todo > i:nth-of-type(1) {
+    color: coral;
+    border: coral solid 2px;
+}
+.todo > i:nth-of-type(1):hover {
+    background-color: coral;
+    color: white;
+}
+.todo > i:nth-of-type(2) {
+    color: red;
+    border: red solid 2px;
+}
+.todo > i:nth-of-type(2):hover {
+    background-color: red;
+    color: white;
+}
+center {
+    margin-top: 20px;
+    color: beige;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
